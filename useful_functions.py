@@ -16,6 +16,7 @@ def get_seq_list(filename):
                 current_sequence = ''
         else:
             current_sequence += line
+    seq_list.append(current_sequence)
     return seq_list
 
 #Converts DNA to amino acid one-letter code
